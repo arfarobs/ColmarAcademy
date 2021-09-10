@@ -56,6 +56,8 @@ header li{
     }
 }
 
+
+
 #header-mobile{
     height: 64px;
     position: fixed;
@@ -80,6 +82,12 @@ header li{
         display: none !important;
     }
 }
+
+
+
+
+
+
 main{
     top: 64px;
     position: relative;
@@ -130,6 +138,47 @@ main{
     width: 100%;
     padding: 10px 0;
 }
+
+ @media only screen and (max-width: 414px){
+     #banner{
+         display: block;
+         box-sizing: border-box;
+         padding: 0;
+         margin: 0;
+     }
+
+     #pic{
+         width: 100%;
+     }
+
+     #pic img{
+         padding: 0;
+     }
+
+     #info{
+         width: 100%;
+         margin: 0;
+         padding: 32px 16px;
+         box-sizing: border-box;
+     }
+
+     #info h1{
+         font-size: 40px;
+         margin: 0;
+         padding-bottom: 32px;
+     }
+
+     #info h3{
+         font-size: 24px;
+         padding-bottom: 24px;
+         margin: 0;
+     }
+
+     #info button{
+         width: 100%;
+         margin: 0;
+     }
+ }
 
 #practice{
     width: 100%;
