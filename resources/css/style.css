@@ -139,6 +139,8 @@ main{
     padding: 10px 0;
 }
 
+
+
  @media only screen and (max-width: 414px){
      #banner{
          display: block;
@@ -179,6 +181,11 @@ main{
          margin: 0;
      }
  }
+
+
+
+
+
 
 #practice{
     width: 100%;
@@ -264,7 +271,63 @@ a{
     color: blue;
     padding: 8px;
 }
+@media only screen and (min-width: 414px){
+    .img-mobile{
+        display: none;
+    }
+}
 
+
+
+@media only screen and (max-width: 414px){
+    #practice .left{
+        display: none;
+    }
+
+    #practice .right{
+        width: 100%;
+    }
+
+    #orientation, #campus, #guest{
+        display: block;
+        width: 100%;
+        padding: 16px;
+        border: none;
+    }
+
+    .img-big{
+        display: none;
+    }
+
+    .img{
+        width: 100%;
+        padding: 0;
+    }
+
+    .img-mobile{
+        padding: 0;
+    }
+
+    .img-info{
+        padding-left: 16px;
+        width: 100%;
+    }
+
+    .img-info h4{
+        padding: 16px 0 4px 0;
+        font-size: 26px;
+    }
+
+    .img-info p{
+        padding: 0;
+        font-size: 18px;
+    }
+
+    a{
+        padding: 0 0 64px 0;
+        font-size: 20px;
+    }
+}
 #start-learning{
     background-color: lightgrey;
     padding: 32px 58px;
