@@ -56,13 +56,13 @@ header li{
     }
 }
 
-
-
 #header-mobile{
     height: 64px;
     position: fixed;
     width: 100%;
     box-sizing: border-box;
+    z-index: 15;
+    background-color: white;
 }
 
 #header-mobile ul{
@@ -409,6 +409,12 @@ a{
         padding: 16px 0 24px 16px;
         margin: 0;
     }
+}
+
+
+
+
+
 
 #thesis{
     box-sizing: border-box;
@@ -452,6 +458,31 @@ a{
 
 #thesis .right{
     border: none;
+}
+
+@media only screen and (max-width: 414px){
+    #thesis h4, #thesis p, #thesis .right{
+        display: none;
+    }
+
+    #thesis{
+        padding: 0;
+    }
+
+    #thesis .left{
+        padding: 0;
+        width: 100%;
+    }
+
+    #thesis-h2{
+        font-size: 44px;
+        padding: 32px 0 16px 0;
+    }
+
+    #thesis video{
+        padding: 0 0 24px 0;
+        width: 100%;
+    }
 }
 
 footer{
