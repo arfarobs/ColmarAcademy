@@ -485,6 +485,11 @@ a{
     }
 }
 
+
+
+
+
+
 footer{
     padding: 16px 24px;
     display: flex;
@@ -499,4 +504,14 @@ footer ul{
 
 footer li{
     padding-left: 16px;
+}
+
+@media only screen and (max-width: 414px){
+    footer ul{
+        display: none;
+    }
+
+    footer p{
+        padding: 16px;
+    }
 }
